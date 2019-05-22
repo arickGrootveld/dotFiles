@@ -1,5 +1,6 @@
 set number
 set whichwrap=<,>,[,],h,l
+set tabstop=4
 
 " Start of vim pluggin stuff
 call plug#begin('~/.vim/plugged')
