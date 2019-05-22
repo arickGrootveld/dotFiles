@@ -2,6 +2,7 @@ set number
 set whichwrap=<,>,[,],h,l
 set tabstop=4
 set smartindent
+set spell spelllang=en_us
 
 " Start of vim pluggin stuff
 call plug#begin('~/.vim/plugged')
