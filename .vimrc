@@ -1,4 +1,5 @@
 set number
+set bs=eol
 
 " Start of vim pluggin stuff
 call plug#begin('~/.vim/plugged')
