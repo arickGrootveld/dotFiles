@@ -7,6 +7,9 @@ set statusline=%4*\ %<%F%*
 
 " Setting wrapping so a backspace at the beggining of a line takes you to end of last line
 set whichwrap=<,>,[,],h,l
+" Setting mouse scrolling to work as expected
+set mouse=a
+
 " Setting tabs to be 4 spaces
 set tabstop=4
 set shiftwidth=4
