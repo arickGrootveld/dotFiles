@@ -9,7 +9,6 @@ set statusline=%4*\ %<%F%*
 set whichwrap=<,>,[,],h,l
 " Setting mouse scrolling to work as expected
 set mouse=a
-
 " Setting tabs to be 4 spaces
 set tabstop=4
 set shiftwidth=4
