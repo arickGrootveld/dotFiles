@@ -1,6 +1,13 @@
 " Setting line numbers to make it easier to navigate
 set number
 
+" if being used for git difftool, show numbers
+if &diff
+  set number
+endif
+" git difftool can be setup by setting the global git config with 'git config --global diff.tool vimdiff'
+" and can be used by running 'git difftool'
+
 " Displaying the current file path in the view
 set laststatus=2
 set statusline=%4*\ %<%F%*
