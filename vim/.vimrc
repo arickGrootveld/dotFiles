@@ -42,4 +42,4 @@ set background=dark
 
 
 " Start of custom commands
-:command! Dbg :normal i console.log('');<ESC>hhh
+:command! Dbg :normal i print('');<ESC>hhh
