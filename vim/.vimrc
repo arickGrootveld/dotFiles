@@ -1,6 +1,13 @@
 " Setting line numbers to make it easier to navigate
 set number
 
+" syntax highlighting
+syntax on
+
+" autodetect the filetype
+filetype plugin indent on
+" credit to Grant Barton for the last two lines
+
 " if being used for git difftool, show numbers
 if &diff
   set number
