@@ -45,7 +45,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/seoul256.vim'
 Plug 'christoomey/vim-tmux-navigator'
-
+Plug 'dense-analysis/ale'
 call plug#end()
 " End of vim pluggin stuff
 
